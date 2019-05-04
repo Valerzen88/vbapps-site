@@ -31,9 +31,9 @@ zustande.<br /></b>
 (3) Die Präsentation der Waren in unserem Internetshop stellen kein rechtlich bindendes Vertragsangebot unsererseits dar,
 sondern sind nur eine unverbindliche Aufforderungen an den Verbraucher, Waren zu bestellen. Mit der Bestellung der gewünschten Ware gibt der Verbraucher ein für
 ihn verbindliches Angebot auf Abschluss eines Kaufvertrages ab.<br />
- 
+
 <br />
-Die Annahme des Angebots erfolgt schriftlich oder in Textform oder durch Übersendung der bestellten Ware innerhalb von einer Woche. 
+Die Annahme des Angebots erfolgt schriftlich oder in Textform oder durch Übersendung der bestellten Ware innerhalb von einer Woche.
 Nach fruchtlosem Ablauf der Frist gilt das Angebot als abgelehnt.<br />
 <br />
 (4) Bei Eingang einer Bestellung in unserem Internetshop gelten folgende Regelungen:
@@ -42,21 +42,21 @@ Der Verbraucher gibt ein bindendes Vertragsangebot ab, indem er die in unserem I
 Die Bestellung erfolgt in folgenden Schritten:<br />
 <br />
 <div class="ml20">
-     
-    1) Auswahl der gewünschten Ware<br /> 
-     
-    2) Bestätigen durch Anklicken der Buttons „Bestellen“ <br /> 
-     
-    3) Prüfung der Angaben im Warenkorb<br /> 
-     
-    4) Betätigung des Buttons „zur Kasse“ <br /> 
-     
-    5) Anmeldung im Internetshop nach Registrierung und Eingabe der Anmelderangaben (E-Mail-Adresse und Passwort). <br /> 
-     
-    6) Nochmalige Prüfung bzw. Berichtigung der jeweiligen eingegebenen Daten.<br /> 
-     
-    7) Verbindliche Absendung der Bestellung durch Anklicken des Buttons „kostenpflichtig bestellen“ bzw. „kaufen“<br /> 
-     
+
+    1) Auswahl der gewünschten Ware<br />
+
+    2) Bestätigen durch Anklicken der Buttons „Bestellen“ <br />
+
+    3) Prüfung der Angaben im Warenkorb<br />
+
+    4) Betätigung des Buttons „zur Kasse“ <br />
+
+    5) Anmeldung im Internetshop nach Registrierung und Eingabe der Anmelderangaben (E-Mail-Adresse und Passwort). <br />
+
+    6) Nochmalige Prüfung bzw. Berichtigung der jeweiligen eingegebenen Daten.<br />
+
+    7) Verbindliche Absendung der Bestellung durch Anklicken des Buttons „kostenpflichtig bestellen“ bzw. „kaufen“<br />
+
 <br />
 </div>
 Der Verbraucher kann vor dem verbindlichen Absenden der Bestellung durch Betätigen der in dem von ihm verwendeten Internet-Browser enthaltenen „Zurück“-Taste nach
@@ -76,21 +76,21 @@ E-Mail zu. Die AGB können Sie jederzeit auch unter http://vbapps.co/areafiftyon
 <p style="font-weight: bold; padding-bottom: 10px;">§3 Preise, Versandkosten, Zahlung, Fälligkeit</p>
 (1) Die angegebenen Preise enthalten die gesetzliche Umsatzsteuer und sonstige Preisbestandteile. Hinzu kommen etwaige Versandkosten.<br />
 <br />
-(2) Der Verbraucher hat die Möglichkeit der Zahlung per 
-            Vorkasse, 
-     
-        
-     
-        
-            PayPal 
-     
-        
-     
-        
+(2) Der Verbraucher hat die Möglichkeit der Zahlung per
+            Vorkasse,
+
+
+
+
+            PayPal
+
+
+
+
 .<br />
 <br />
 (3) Hat der Verbraucher die Zahlung per Vorkasse gewählt, so verpflichtet er sich, den Kaufpreis unverzüglich nach Vertragsschluss zu zahlen.<br />
- 
+
 
 <br />
 <p style="font-weight: bold; padding-bottom: 10px;">§4 Lieferung</p>
@@ -172,14 +172,14 @@ Wir behalten uns das Eigentum an der Ware bis zur vollständigen Bezahlung des K
     <br />
     <br />
 
-    
+
     <b>Ende der Widerrufsbelehrung</b>
 <br />
 <br />
 ****************************************************************************************************
 
 <br />
-    
+
 
 
 
