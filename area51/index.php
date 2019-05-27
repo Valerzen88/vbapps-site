@@ -229,8 +229,8 @@
 							<i class="icon-check2"></i>
 							<div class="desc">
 								<h3>Welche Broker wird empfohlen?</h3>
-								<p>Wir empfehlen einen ECN-Broker mit kleinen Spread z.B. <a href="http://alpari-forex.com/en/?partner_id=1238918" target="_blank">
-								Alpari</a> oder <a href="https://fxcm.com/"  target="_blank">FXCM</a>.</p>
+                                								<p>Wir empfehlen einen ECN-Broker mit kleinen Spread z.B. <a href="http://alpari-forex.com/en/?partner_id=1238918" target="_blank">
+                                								Alpari</a> oder <a href="https://www.icmarkets.com/?camp=26550" id="referal_link">IC Markets</a>.</p>
 							</div>
 						</div>
 					</div>
