@@ -78,10 +78,11 @@ require "site/include.php";
         <script>
 function change_lang(lang) {
 	if(lang=='en'){
-		location.replace("?lang=en_US")
-	}
+		location.replace("?lang=en_US");
+		location.reload();
 	else if(lang=='de'){
-		location.replace("?lang=de_DE")
+		location.replace("?lang=de_DE");
+		location.reload();
 	}
 	
 }
