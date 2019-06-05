@@ -35,7 +35,17 @@
 	<![endif]-->
 
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<script>
+function change_lang(lang) {
+	if(lang=='en'){
+		location.replace("?lang=en_US");
+	}
+	else if(lang=='de'){
+		location.replace("?lang=de_DE");
+	}
 	
+}
+</script>
 </head>
 <body>
 
@@ -71,17 +81,7 @@
                                 <img src="images/de.png" class="drapoAllemagne" >
                                 <p class="plangues">DE</p>
                             </button>
-        <script>
-function change_lang(lang) {
-	if(lang=='en'){
-		location.replace("?lang=en_US")
-	}
-	else if(lang=='de'){
-		location.replace("?lang=de_DE")
-	}
-	
-}
-</script>
+        
 </div>
 				</ul>
 			</div>

@@ -6,15 +6,15 @@
 				<div class="col-md-4 to-animate">
 					<h3 class="section-title"><?php echo t("Über uns");?></h3>
 					<p><?php echo t("AreaFiftyOne Expert Advisor ist ein von uns entworfenes deutsches Qualitätsprodukt. Dieses Produkt wird mit Bedacht entwickelt und getestet.");?></p>
-					<p class="copy-right">&copy; 2017 VBApps <br><?php echo t("Alle Rechte vorbehalten.");?><br></p>
+					<p class="copy-right">&copy; 2019 VBApps <br><?php echo t("Alle Rechte vorbehalten.");?><br></p>
 				</div>
 
 				<div class="col-md-4 to-animate">
 					<h3 class="section-title"><?php echo t("Unsere Adresse");?></h3>
 					<ul class="contact-info">
-						<li><i class="icon-map-marker"></i>VBApps<br>Jahnstr. 17<br>D-85276 Pfaffenhofen</li>
+						<li><i class="icon-map-marker"></i>VBApps<br>Eisenbahnstr. 152<br>D-04315 Leipzig</li>
 						<li><i class="icon-envelope"></i><a href="mailto:info@vbapps.co">info@vbapps.co</a></li>
-						<li><i class="icon-globe2"></i><a href="/">vbapps.co</a></li>
+						<li><i class="icon-globe2"></i><a href="/area51/">vbapps.co/area51</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4 to-animate">

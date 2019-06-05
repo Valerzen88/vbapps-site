@@ -16,14 +16,14 @@ include('header_other_dirs.php'); ?>
 			<form class="contact-form" action="manageorder.php" method="post">
 				<div class="form-group">
 					<label for="orderCount" class="sr-only"><?php echo t("Anzahl der Monate");?></label>
-					<select name="orderCount" class="form-control" id="orderCount" required><
-						<option value=1 <?php if ($_GET['orderCount'] == 1) echo 'selected="selected"'; ?>><?php echo t("1 Monat");?></option>
-						<option value=3 <?php if ($_GET['orderCount'] == 3) echo 'selected="selected"'; ?>><?php echo t("3 Monate");?></option>
-						<option value=6 <?php if ($_GET['orderCount'] == 6) echo 'selected="selected"'; ?>><?php echo t("6 Monate");?></option>
-						<option value=12 <?php if ($_GET['orderCount'] == 12) echo 'selected="selected"'; ?>><?php echo t("12 Monate");?></option>
-						<option value=24 <?php if ($_GET['orderCount'] == 24) echo 'selected="selected"'; ?>><?php echo t("24 Monate");?></option>
-						<option value=36 <?php if ($_GET['orderCount'] == 36) echo 'selected="selected"'; ?>><?php echo t("36 Monate");?></option>
-						<option value=48 <?php if ($_GET['orderCount'] == 48) echo 'selected="selected"'; ?>><?php echo t("48 Monate");?></option>
+					<select name="orderCount" class="form-control" id="orderCount" required>
+						<option value=1 <?php if (isset($_GET['orderCount'])&&$_GET['orderCount'] == 1) echo 'selected="selected"'; ?>><?php echo t("1 Monat");?></option>
+						<option value=3 <?php if (isset($_GET['orderCount'])&&$_GET['orderCount'] == 3) echo 'selected="selected"'; ?>><?php echo t("3 Monate");?></option>
+						<option value=6 <?php if (isset($_GET['orderCount'])&&$_GET['orderCount'] == 6) echo 'selected="selected"'; ?>><?php echo t("6 Monate");?></option>
+						<option value=12 <?php if (isset($_GET['orderCount'])&&$_GET['orderCount'] == 12) echo 'selected="selected"'; ?>><?php echo t("12 Monate");?></option>
+						<option value=24 <?php if (isset($_GET['orderCount'])&&$_GET['orderCount'] == 24) echo 'selected="selected"'; ?>><?php echo t("24 Monate");?></option>
+						<option value=36 <?php if (isset($_GET['orderCount'])&&$_GET['orderCount'] == 36) echo 'selected="selected"'; ?>><?php echo t("36 Monate");?></option>
+						<option value=48 <?php if (isset($_GET['orderCount'])&&$_GET['orderCount'] == 48) echo 'selected="selected"'; ?>><?php echo t("48 Monate");?></option>
 					</select>
 				</div>
 				<p style="color:black;"><?php echo t("Bitte geben Sie in das folgende Feld den Namen des Metatrader4-Kontobesitzers (wie im Terminal angezeigt) an. Dieser Name wird in der Lizenz verwendet.");?></p>

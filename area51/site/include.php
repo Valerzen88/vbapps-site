@@ -1,6 +1,5 @@
 <?php
 $d_lang='de_DE';
-$lang='';
 $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 5);
 $acceptLang = ['de_DE', 'en_US'];
 $lang = in_array($lang, $acceptLang) ? $lang : 'en_US';
@@ -19,14 +18,18 @@ if(isset($_SESSION['lang'])){
 	$lang=$_SESSION['lang'];
 }
 
-
-
 function t($txt){
 	global $lang,$d_lang;
 	if($d_lang!=$lang){//si la langue par défaut n'est pas la langue choisie
+	if(strpos($_SERVER["REQUEST_URI"],'site')!==false) {
 		$file="lang/$lang/translated.json";
+		$dir="lang/$lang/";
+	}else {
+		$file="site/lang/$lang/translated.json";
+		$dir="site/lang/$lang/";
+	}		
 
-		if(!is_dir("lang/$lang/")){//si il n'y a pas de dossier cela veut dire pas de traduction
+		if(!is_dir($dir)){//si il n'y a pas de dossier cela veut dire pas de traduction
 			return($txt);	
 		}
 		$translated=fopen($file, "a+");

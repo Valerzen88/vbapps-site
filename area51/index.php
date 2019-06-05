@@ -31,14 +31,23 @@ require "site/include.php";
 	<link rel="shortcut icon" href="favicon.ico">
 	
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="site/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-<script src="js/slider.js"></script>
+<script src="site/js/slider.js"></script>
 
+<script>
+	function change_lang(lang) {
+		if(lang==='en'){
+			location.replace("?lang=en_US");
+		}else if(lang==='de'){
+			location.replace("?lang=de_DE");
+		}	
+	}
+</script>
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
@@ -49,7 +58,7 @@ require "site/include.php";
 				<div class="navbar-header">
 					<!-- Mobile Toggle Menu Button -->
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-					<a class="navbar-brand" href="/"><i class="icon-graph"></i> <?php echo t("AreaFiftyOne Expert Advisor");?></a> 
+					<a class="navbar-brand" href="/area51/"><i class="icon-graph"></i> <?php echo t("AreaFiftyOne Expert Advisor");?></a> 
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -66,7 +75,7 @@ require "site/include.php";
 							<span><?php echo t("Kundenlogin");?></span></a></li>-->
                         <div class="divglobal">
         
-                            <button class="buttonFrance" ahref="lang" onclick="change_lang('en')">
+                            <button class="buttonFrance" onclick="change_lang('en')">
                                 <img src="site/images/en.png" class="drapoFrance">
                                 <p class="plangues">EN</p>
                             </button>
@@ -75,17 +84,6 @@ require "site/include.php";
                                 <img src="site/images/de.png" class="drapoAllemagne" >
                                 <p class="plangues">DE</p>
                             </button>
-        <script>
-function change_lang(lang) {
-	if(lang=='en'){
-		location.replace("?lang=en_US");
-	else if(lang=='de'){
-		location.replace("?lang=de_DE");
-	}
-	
-}
-</script>
-
             </div>
 					</ul>
 				</div>
@@ -399,7 +397,7 @@ function change_lang(lang) {
 							<div class="price"><sup class="currency">€</sup>350</div>
 							<p><?php echo t("Nur einmal im Jahr zahlen und ");?><font color="red">28%</font> <?php echo t("sparen!");?></p>
 							<hr>
-							<p><a href="orderpage.php?orderCount=12" class="btn btn-primary"><?php echo t("bestellen");?></a></p>
+							<p><a href="site/orderpage.php?orderCount=12" class="btn btn-primary"><?php echo t("bestellen");?></a></p>
 						</div> 
 						</div>
 					</div>
@@ -427,15 +425,15 @@ function change_lang(lang) {
 				<div class="col-md-4 to-animate">
 					<h3 class="section-title"><?php echo t("Über uns");?></h3>
 					<p><?php echo t("AreaFiftyOne Expert Advisor ist ein von uns entworfenes deutsches Qualitätsprodukt. Dieses Produkt wird mit Bedacht entwickelt und getestet.");?></p>
-					<p class="copy-right">&copy; 2017 VBApps <br><?php echo t("Alle Rechte vorbehalten.");?><br></p>
+					<p class="copy-right">&copy; 2019 VBApps <br><?php echo t("Alle Rechte vorbehalten.");?><br></p>
 				</div>
 
 				<div class="col-md-4 to-animate">
 					<h3 class="section-title"><?php echo t("Unsere Adresse");?></h3>
 					<ul class="contact-info">
-						<li><i class="icon-map-marker"></i>VBApps<br>Jahnstr. 17<br>D-85276 Pfaffenhofen</li>
+						<li><i class="icon-map-marker"></i>VBApps<br>Eisenbahnstr. 152<br>D-04315 Leipzig</li>
 						<li><i class="icon-envelope"></i><a href="mailto:info@vbapps.co">info@vbapps.co</a></li>
-						<li><i class="icon-globe2"></i><a href="/">vbapps.co</a></li>
+						<li><i class="icon-globe2"></i><a href="/area51">vbapps.co/area51</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4 to-animate">
@@ -474,21 +472,21 @@ function change_lang(lang) {
 	<!-- FOOTER END -->
 	
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="site/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="site/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="site/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="site/js/jquery.waypoints.min.js"></script>
 	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
+	<script src="site/js/jquery.stellar.min.js"></script>
 	<!-- Owl Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="site/js/owl.carousel.min.js"></script>
 	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
+	<script src="site/js/jquery.countTo.js"></script>
 	<!-- Main JS (Do not remove) -->
-	<script src="js/main.js"></script>
+	<script src="site/js/main.js"></script>
 
 </body>
 </html>
