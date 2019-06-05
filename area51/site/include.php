@@ -1,6 +1,9 @@
 <?php
 $d_lang='de_DE';
 $lang='';
+$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 5);
+$acceptLang = ['de_DE', 'en_US'];
+$lang = in_array($lang, $acceptLang) ? $lang : 'en_US';
 
 session_start();
 
