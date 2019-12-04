@@ -1,6 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 setlocale(LC_MONETARY, 'de_DE');
+$link = "Location: http://vbapps.co/ai/";
 
 if (isset($_POST["send_inquiry"])) {
     $message_text = "<u>Kundendaten:</u><br>
@@ -17,7 +18,9 @@ if (isset($_POST["send_inquiry"])) {
         "Sehr geehrter Kunde,<br><br>Sie haben eine Anfrage zu AMZ.Invest mit folgendem Inhalt: <b>" .
         $message_text . "</b> gesendet. <br><br>Das ist nur eine Kopie der Nachricht für Sie.
         <br><br>Mit freundlichen Grüßen,<br><br>Ihr AMZ.Invest-Team<br><br>", $headers);
-
+    header($link);
+} else {
+    header($link);
 }
 
 ?>
