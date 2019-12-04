@@ -4,7 +4,7 @@ setlocale(LC_MONETARY, 'de_DE');
 $link = "Location: http://vbapps.co/ai/";
 
 if (isset($_POST["send_inquiry"])) {
-	 $headers = 'From: payment@vbapps.co'."\r\n".'Reply-To: payment@vbapps.co' . "\r\n";
+    $headers = 'From: info@vbapps.co' . "\r\n" . 'Reply-To: info@vbapps.co' . "\r\n";
 	// To send HTML mail, the Content-type header must be set
 	$headers .= 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
@@ -20,7 +20,7 @@ if (isset($_POST["send_inquiry"])) {
 
     mail($_POST['lead_email'] . ", info@vbapps.co", "Neue Anfrage zu AMZ.Invest",
         "Sehr geehrter Kunde,<br><br>Sie haben eine Anfrage zu AMZ.Invest mit folgendem Inhalt: <b><br>" .
-        $message_text . "</b> gesendet. <br><br>Das ist nur eine Kopie der Nachricht für Sie.
+        $message_text . "</b> gesendet.<br><br>Wir werden Sie schnellstmöglich kontaktieren!<br><br>Das ist nur eine Kopie der Nachricht für Sie.
         <br><br>Mit freundlichen Grüßen<br><br>Ihr AMZ.Invest-Team<br><br>", $headers);
     header($link);
 } else {
