@@ -56,17 +56,17 @@ function change_lang(lang) {
 			<!-- Mobile Toggle Menu Button -->
 				<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" 
 				data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-				<a class="navbar-brand" href="./"><i class="icon-graph"></i> AreaFiftyOne Expert Advisor</a> 
+				<a class="navbar-brand" href="./../"><i class="icon-graph"></i> AreaFiftyOne Expert Advisor</a> 
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="./" class="external"><span><?php echo t("Home");?></span></a></li>			
-					<li><a href="./#fh5co-services" class="external"><span><?php echo t("Produkt");?></span></a></li>
-					<li><a href="./#fh5co-pricing" class="external"><span><?php echo t("Preise");?></span></a></li>
-					<li><a href="./#fh5co-faq" class="external"><span><?php echo t("FAQ");?></span></a></li>
-					<li><a href="./#fh5co-aboutus" data-nav-section="about_us"><span><?php echo t("Über uns");?></span></a></li>
+					<li class="active"><a href="./../" class="external"><span><?php echo t("Home");?></span></a></li>			
+					<li><a href="./../#fh5co-services" class="external"><span><?php echo t("Produkt");?></span></a></li>
+					<li><a href="./../#fh5co-pricing" class="external"><span><?php echo t("Preise");?></span></a></li>
+					<li><a href="./../#fh5co-faq" class="external"><span><?php echo t("FAQ");?></span></a></li>
+					<li><a href="./../#fh5co-aboutus" data-nav-section="about_us"><span><?php echo t("Über uns");?></span></a></li>
 					<li class="call-to-action">
-						<a class="external" style="border: 2px solid #088A29;background: #088A29;" href="./#fh5co-pricing" data-nav-section="pricing">
+						<a class="external" style="border: 2px solid #088A29;background: #088A29;" href="./../#fh5co-pricing" data-nav-section="pricing">
 						<span><?php echo t("Mieten");?></span></a></li>
 					<!--<li class="call-to-action">
 						<a class="external" style="border: 2px solid #00ADB5;background: #00ADB5;" href="users/manage_account.php">

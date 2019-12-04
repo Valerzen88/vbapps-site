@@ -123,14 +123,14 @@ function addClickInfo(keyword) {
 		<div id="product-cta-headline" class="content-editable content-editable-html">Kiwea USB Typ C auf 3,5-mm AUX Kopfhörer Adapter mit Ladebuchse 2 in 1 mit neuem Audio Chip für Huawei Mate/P20/P30/Mediapad 5/Xiaomi MI 8/MI 9/MI 2/OnePlus 7/MOTO 7/NUT PRO/Nokia 7/8</div>
 					<div class="product-cta-percent-off">
 									<div class="product-cta-percent-off-inner percent">
-						<span class="cta-percent-off-value">23</span>%<br>
+						<span class="cta-percent-off-value">24</span>%<br>
 											</div>			
 							</div>
 					<div class="product-cta-regular-price">
-				Davor: <span class="cta-regular-price-strikethrough" >€21,99</span>
+				Davor: <span class="cta-regular-price-strikethrough" >€16,99</span>
 			</div>
 			<div class="product-cta-sale-price">
-				€16,99			</div>
+				€12,99			</div>
 				<div id='desktop-cta'>
 		<a class='button cta-button button-medium amz-url' href='https://amazon.de/s/?field-asin=B07TQFH72W&amp;keywords=usb+c+klinke&amp;ie=UTF8&amp;rh=i:aps,ssx:relevance' onclick="addClickInfo('usb c klinke');return false;" >Auf Amazon kaufen</a>			
 			<div id="product-cta-after-text"><img width="104" height="50" src="../../wp-content/themes/landingcube/assets/amazon-logo_transparent.png" srcset="https://pages.landingcube.com/wp-content/themes/landingcube/assets/amazon-logo_transparent-2x.png 2x"></div>
@@ -307,7 +307,7 @@ function addClickInfo(keyword) {
 					
 		</div>
 		<div class="call-to-action-text headline content-editable content-editable-html">Worauf wartest du?</div>
-	<a class='button cta-button button-medium amz-url' href='https://amazon.de/s/?field-asin=B07TQFH72W&amp;keywords=usb+c+3,5+klinke+adapter&amp;ie=UTF8&amp;rh=i:aps,ssx:relevance' onclick="addClickInfo('usb c 3,5 klinke adapter');return false;">Auf Amazon kaufen</a>	</div>
+	<a class='button cta-button button-medium amz-url' href='https://amazon.de/s/?field-asin=B07TQFH72W&amp;keywords=usb+c+klinke&amp;ie=UTF8&amp;rh=i:aps,ssx:relevance' onclick="addClickInfo('usb c klinke');return false;">Auf Amazon kaufen</a>	</div>
 </section>
 <section id="faq-div">
 	<div class="wrapper" >
