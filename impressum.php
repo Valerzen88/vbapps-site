@@ -1,4 +1,4 @@
-<?php include('header_other_dirs.html'); ?>
+<?php include('header_other_dirs.php'); ?>
 <section id="fh5co-faq" data-section="impressum">
 <div class="container">
 <h1>Impressum</h1>
@@ -140,4 +140,4 @@ Rechtsverletzungen werden derartige Inhalte umgehend entfernen.</p>
 <p>&nbsp;</p>
 </div>
 </section>
-<?php include('footer_other_dirs.html'); ?>
+<?php include('footer_other_dirs.php'); ?>
