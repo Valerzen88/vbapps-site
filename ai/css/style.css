@@ -687,6 +687,17 @@ button {
      width: 100%;
 }
 
+.bg_testamonial {
+    font-size: 17px;
+    background-color: #0a88ee;
+    color: #ffffff;
+    padding: 13px 0px 0px 15px;
+    transition: ease-in all 0.5s;
+    border-radius: 10px;
+    max-width: border-box;
+    background-position: center;
+    background-size: 100% 100%;
+}
 
 /** end contact section **/
 
