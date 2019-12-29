@@ -30,7 +30,6 @@
     </style>
 	<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="images/favicon.ico" rel="icon" sizes="96x96" type="image/ico">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body class="body">
