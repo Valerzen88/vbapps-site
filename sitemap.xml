@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+    <url>
+        <loc>http://vbapps.co/</loc>
+        <lastmod>2019-05-27T15:03:01+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>http://vbapps.co/impressum.php</loc>
+        <lastmod>2020-01-04T18:45:34+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://vbapps.co/private_policy.php</loc>
+        <lastmod>2020-01-04T18:45:34+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://vbapps.co/termofuse.php</loc>
+        <lastmod>2020-01-04T18:45:34+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+
+
+</urlset>

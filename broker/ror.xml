@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:ror="http://rorweb.com/0.1/" version="2.0">
+    <channel>
+        <title>ROR Sitemap for http://dax-trading-group.de/</title>
+        <link>http://dax-trading-group.de/</link>
+
+        <item>
+            <link>http://dax-trading-group.de/</link>
+            <title>Meine Erfahrungen mit den Forex Brokern</title>
+            <description>Meine Erfahrungen mit den Forex Brokern</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>0</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://dax-trading-group.de/impressum.html</link>
+            <title>Dax Trading Group :: Impressum</title>
+            <description>Dax Trading Group :: Impressum</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://dax-trading-group.de/datenschutz.html</link>
+            <title>Dax Trading Group :: Datenschutz</title>
+            <description>Dax Trading Group :: Datenschutz</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://dax-trading-group.de/index.html</link>
+            <title>Meine Erfahrungen mit den Forex Brokern</title>
+            <description>Meine Erfahrungen mit den Forex Brokern</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>2</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+    </channel>
+</rss>
+  

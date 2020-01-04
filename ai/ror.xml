@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:ror="http://rorweb.com/0.1/" version="2.0">
+    <channel>
+        <title>ROR Sitemap for http://amz-invest.de/</title>
+        <link>http://amz-invest.de/</link>
+
+        <item>
+            <link>http://amz-invest.de/</link>
+            <title>AMZ.Invest - Lass dein Geld für dich arbeiten!</title>
+            <description>AMZ.Invest - Lass dein Geld für dich arbeiten!</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>0</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://amz-invest.de/index.html</link>
+            <title>AMZ.Invest - Lass dein Geld für dich arbeiten!</title>
+            <description>AMZ.Invest - Lass dein Geld für dich arbeiten!</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://amz-invest.de/more_info.html</link>
+            <title>AMZ.Invest - Lass dein Geld für dich arbeiten! :: Wie funktioniert es?</title>
+            <description>AMZ.Invest - Lass dein Geld für dich arbeiten! :: Wie funktioniert es?</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://amz-invest.de/faq.html</link>
+            <title>AMZ.Invest - Lass dein Geld für dich arbeiten! :: FAQ</title>
+            <description>AMZ.Invest - Lass dein Geld für dich arbeiten! :: FAQ</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://amz-invest.de/impressum.html</link>
+            <title>AMZ.Invest - Lass dein Geld für dich arbeiten! :: Impressum</title>
+            <description>AMZ.Invest - Lass dein Geld für dich arbeiten! :: Impressum</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://amz-invest.de/datenschutz.html</link>
+            <title>Datenschutz</title>
+            <description>Datenschutz</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+    </channel>
+</rss>
+  

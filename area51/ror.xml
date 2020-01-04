@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:ror="http://rorweb.com/0.1/" version="2.0">
+    <channel>
+        <title>ROR Sitemap for http://vbapps.co/area51/</title>
+        <link>http://vbapps.co/area51/</link>
+
+        <item>
+            <link>http://vbapps.co/area51/</link>
+            <title>.:. AreaFiftyOne Handelsroboter von VBApps .:.</title>
+            <description>.:. AreaFiftyOne Handelsroboter von VBApps .:.</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>0</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://vbapps.co/area51/site/orderpage.php?orderCount=12</link>
+            <title>.:. AreaFiftyOne Handelsroboter von VBApps .:.</title>
+            <description>.:. AreaFiftyOne Handelsroboter von VBApps .:.</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://vbapps.co/area51/site/impressum.php</link>
+            <title></title>
+
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>2</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+    </channel>
+</rss>
+  

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:ror="http://rorweb.com/0.1/" version="2.0">
+    <channel>
+        <title>ROR Sitemap for http://vbapps.co/</title>
+        <link>http://vbapps.co/</link>
+
+        <item>
+            <link>http://vbapps.co/</link>
+            <title>VBApps.co - Offizielle Website</title>
+            <description>VBApps.co - Offizielle Website</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>0</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://vbapps.co/impressum.php</link>
+            <title></title>
+
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://vbapps.co/private_policy.php</link>
+            <title></title>
+
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://vbapps.co/termofuse.php</link>
+            <title></title>
+
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+    </channel>
+</rss>
+  
