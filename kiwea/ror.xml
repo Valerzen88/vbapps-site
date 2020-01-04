@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:ror="http://rorweb.com/0.1/" version="2.0">
+    <channel>
+        <title>ROR Sitemap for http://kiwea.shop/</title>
+        <link>http://kiwea.shop/</link>
+
+        <item>
+            <link>http://kiwea.shop/</link>
+            <title></title>
+
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>0</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://kiwea.shop/products/adapter/</link>
+            <title>Ein exklusives Angebot für dich &amp;#8211;</title>
+            <description>Ein exklusives Angebot für dich &amp;#8211;</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>http://kiwea.shop/products/cup/</link>
+            <title>Local index - HTTrack Website Copier</title>
+            <description>HTTrack is an easy-to-use website mirror utility. It allows you to download a World Wide
+                website from the Internet to a local directory,building recursively all structures, getting html,
+                images, and other files from the server to your computer. Links are rebuiltrelatively so that you can
+                freely browse to the local site (works with any browser). You can mirror several sites together so that
+                you can jump from one toanother. You can, also, update an existing mirror site, or resume an interrupted
+                do
+            </description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>1</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+        <item>
+            <link>
+                http://kiwea.shop/products/cup/pages.landingcube.com/product/kiwea-faltbarer-wiederverwendbarere-kaffeebecher-aus-silikon-fur-reisen-fruchtgrun-1/index.html
+            </link>
+            <title>Ein exklusives Angebot für dich &amp;#8211; LandingCube</title>
+            <description>Ein exklusives Angebot für dich &amp;#8211; LandingCube</description>
+            <ror:updatePeriod></ror:updatePeriod>
+            <ror:sortOrder>2</ror:sortOrder>
+            <ror:resourceOf>sitemap</ror:resourceOf>
+        </item>
+    </channel>
+</rss>
+  
