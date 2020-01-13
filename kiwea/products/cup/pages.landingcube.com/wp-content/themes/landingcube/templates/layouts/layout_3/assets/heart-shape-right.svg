@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="287px" height="271px" viewBox="0 0 287 271" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>testimonials-svg-message-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.7%" y="-14.1%" width="109.4%" height="128.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Landing-Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[Desktop]-Landing-page-1" transform="translate(-976.000000, -2938.000000)" stroke="#F2F2F2" stroke-width="3">
+            <g id="Group-41" transform="translate(0.000000, 2712.000000)">
+                <g id="Combined-Shape" filter="url(#filter-1)">
+                    <g id="Group-37" transform="translate(307.000000, 18.750000)">
+                        <path d="M862.020136,264.35254 L739.720843,264.35254 C720.196867,264.35254 704.37049,280.16582 704.37049,299.671857 L704.37049,379.817552 C704.37049,399.323568 720.197237,415.136869 739.720843,415.136869 L757.272428,415.136869 C758.935655,415.136869 760.284256,416.484334 760.284256,418.147423 L760.284256,457.681596 C760.284256,460.997075 764.345025,462.605246 766.619111,460.188656 L808.133466,416.085067 C808.702762,415.479677 809.496977,415.136869 810.327914,415.136869 L862.020136,415.136869 C881.543858,415.136869 897.37049,399.323452 897.37049,379.817552 L897.37049,299.671857 C897.37049,280.166095 881.543605,264.35254 862.020136,264.35254 Z M842.902122,309.806809 L842.902144,309.806831 C852.860071,319.747758 852.859943,335.865203 842.901821,345.805909 L803.676535,384.969241 C801.828905,386.81364 798.833808,386.81364 796.986177,384.969241 L757.838884,345.89041 C747.881021,335.949547 747.881021,319.831712 757.838928,309.89122 C767.795755,299.952221 783.937298,299.952221 793.893731,309.891242 L799.102507,315.090909 C799.778991,315.76621 800.877456,315.76621 801.55394,315.090909 L806.847319,309.806787 C816.804146,299.867788 832.945689,299.867788 842.902122,309.806809 Z" id="testimonials-svg-message-2" transform="translate(800.870490, 362.852540) rotate(30.000000) translate(-800.870490, -362.852540) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

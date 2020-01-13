@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="163px" height="176px" viewBox="0 0 163 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-18.0%" y="-12.6%" width="135.9%" height="125.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Landing-Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[Mobile]-Landing-page-1" transform="translate(-212.000000, -2282.000000)" stroke="#F2F2F2" stroke-width="3">
+            <g id="Group-31" transform="translate(-289.000000, 2040.000000)">
+                <g id="Group-37">
+                    <g id="Combined-Shape-Copy-2" filter="url(#filter-1)" transform="translate(289.000000, 0.000000)">
+                        <g id="Group-33" transform="translate(0.000000, 10.000000)">
+                            <path d="M326.010068,276.497423 L264.860422,276.497423 C255.552739,276.497423 247.935245,285.021956 247.935245,295.61624 L247.935245,340.497829 C247.935245,351.092099 255.55292,359.616647 264.860422,359.616647 L273.636214,359.616647 C274.92213,359.616647 275.892128,360.702129 275.892128,361.962557 L275.892128,384.101694 C275.892128,385.383547 277.050963,385.897547 277.707365,385.116307 L298.464331,360.418549 C298.887303,359.914787 299.504024,359.616647 300.163957,359.616647 L326.010068,359.616647 C335.317625,359.616647 342.935245,351.092036 342.935245,340.497829 L342.935245,295.61624 C342.935245,285.022111 335.3175,276.497423 326.010068,276.497423 Z M317.768008,300.439598 L317.768029,300.439621 C323.008573,306.32105 323.008506,315.792295 317.767894,321.673553 L297.953021,343.914501 C296.718956,345.299425 294.638276,345.299425 293.404211,343.914501 L273.628765,321.721574 C268.388254,315.840183 268.388254,306.368716 273.628806,300.487525 C278.95927,294.505679 287.68093,294.505679 293.011192,300.487548 L295.64243,303.440445 C295.683433,303.486461 295.670634,303.486461 295.711638,303.440445 L298.385622,300.439575 C303.716087,294.45773 312.437746,294.45773 317.768008,300.439598 Z" id="Combined-Shape" transform="translate(295.435245, 330.997423) rotate(30.000000) translate(-295.435245, -330.997423) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

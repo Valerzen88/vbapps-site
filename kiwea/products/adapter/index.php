@@ -127,10 +127,10 @@ function addClickInfo(keyword) {
 											</div>			
 							</div>
 					<div class="product-cta-regular-price">
-				Davor: <span class="cta-regular-price-strikethrough" >€16,99</span>
+				Davor: <span class="cta-regular-price-strikethrough" >€12,99</span>
 			</div>
 			<div class="product-cta-sale-price">
-				€12,99			</div>
+				€9,99			</div>
 				<div id='desktop-cta'>
 		<a class='button cta-button button-medium amz-url' href='https://amazon.de/s/?field-asin=B07TQFH72W&amp;keywords=usb+c+klinke&amp;ie=UTF8&amp;rh=i:aps,ssx:relevance' onclick="addClickInfo('usb c klinke');return false;" >Auf Amazon kaufen</a>			
 			<div id="product-cta-after-text"><img width="104" height="50" src="../../wp-content/themes/landingcube/assets/amazon-logo_transparent.png" srcset="https://pages.landingcube.com/wp-content/themes/landingcube/assets/amazon-logo_transparent-2x.png 2x"></div>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <circle id="b" cx="12" cy="12" r="4"/>
+        <filter id="a" width="275%" height="275%" x="-87.5%" y="-62.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2011309 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="12" cy="12" r="11.5" stroke="#000" stroke-opacity=".104"/>
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#DF360A" xlink:href="#b"/>
+    </g>
+</svg>
