@@ -1,30 +1,73 @@
 <!DOCTYPE html>
-<html lang="de" class="no-js">
+<html lang="de">
 <head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
 	<link rel="shortcut icon" href="img/fav.png">
-	<!-- Author Meta -->
-	<meta name="author" content="CodePixar">
-	<!-- Meta Description -->
-	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
 	<!-- Site Title -->
 	<title>Kiwea.Shop</title>
 
+	<meta content="airbnb,reisen,gäste empfangen,hosten,gäste hosten,unternehmertum,shulden abbauen,investieren,immobillien,
+finanzielle freiheit,passives einkommen" name="keywords">
+	<meta content="index,follow,max-image-preview:[large],max-snippet:[200]" name="robots">
+	<meta content="Blog über das Hosten der Gäste und Skalierung der touristischen Vermietung als Business,
+welches dir ein unbeschwertes Leben möglich machen wird." name="description">
+	<meta content="Valeri Balachnin" name="author">
+	<!-- Open Graph / Facebook -->
+	<meta content="website" property="og:type">
+	<meta content="http://kiwea.shop/" property="og:url">
+	<meta content="Reise eines AirBnB Hostes :: Blog über Gäste hosten" property="og:title">
+	<meta content="Blog über das Hosten der Gäste und Skalierung der touristischen Vermietung als Business,
+welches dir ein unbeschwertes Leben möglich machen wird." property="og:description">
+	<meta content="http://kiwea.shop/images/fb_airbnb_blog.png" property="og:image">
+
+	<!-- Twitter -->
+	<meta content="summary_large_image" property="twitter:card">
+	<meta content="http://kiwea.shop/" property="twitter:url">
+	<meta content="Reise eines AirBnB Hostes :: Blog über Gäste hosten" property="twitter:title">
+	<meta content="Blog über das Hosten der Gäste und Skalierung der touristischen Vermietung als Business,
+welches dir ein unbeschwertes Leben möglich machen wird." property="twitter:description">
+	<meta content="http://kiwea.shop/images/fb_airbnb_blog.png" property="twitter:image">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155283849-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+
+		gtag('config', 'UA-155283849-1');
+	</script>
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({
+			'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+		j.async = true;
+		j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-TBWCN33');</script>
+	<!-- End Google Tag Manager -->
+
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
-		<!--
-		CSS
-		============================================= -->
-		<link rel="stylesheet" href="css/linearicons.css">
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/nice-select.css">
-		<link rel="stylesheet" href="css/magnific-popup.css">
+	<!--
+    CSS
+    ============================================= -->
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
@@ -35,13 +78,14 @@
 					<div class="header-wrap">
 						<div class="header-top d-flex justify-content-between align-items-center">
 							<div class="logo">
-								<a href="index.html"><img src="img/logo.png" alt=""></a>
+								<a href="index.html"><img alt="" height="60%" src="img/logo_transparent.png"
+														  width="60%"></a>
 							</div>
 							<div class="main-menubar d-flex align-items-center">
 								<nav class="hide">
 									<a href="index.html">Home</a>
-									<a href="generic.html">Generic</a>
-									<a href="elements.html">Elements</a>
+									<!--<a href="generic.html">Generic</a>
+									<a href="elements.html">Elements</a>-->
 								</nav>
 								<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
 							</div>
@@ -56,15 +100,14 @@
 					<div class="row height justify-content-center align-items-center">
 						<div class="col-lg-5">
 							<div class="banner-content">
-								<h1>Products <br>with <br>Vision</h1>
+								<h1 style="color: white;">Products <br>with <br>Vision</h1>
 								<p class="text-white">Wir bringen Produkte mit der Zukunft an dich dich!</p>
 							</div>
 						</div>
-						<div class="col-lg-5" style="visibility:hidden;">
+						<div class="col-lg-5">
 							<div class="banner-video">
-								<div class="overlay overlay-bg"></div>
-								<a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="play-btn"><img src="img/play-btn.png" alt=""></a>
-
+								<div class="overlay"></div>
+								<img alt="" src="img/portfolio_36.jpg">
 							</div>
 						</div>
 					</div>
@@ -78,26 +121,32 @@
 					<div class="row">
 						<div class="col-md-4">
 							<div class="single-feature text-center">
-								<span class="lnr lnr-screen"></span>
-								<h3>Stunning Visuals</h3>
-								<p>Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p>
-								<a href="#" class="text-uppercase">Learn Details</a>
+								<span class="lnr lnr-earth"></span>
+								<h3>Unsere Mission</h3>
+								<p>Wir designen und produzieren die Ware, welche Sie lieben werden! Von Anfang bis zum
+									Ende: vom Design bis zu Produktion,
+									wir denken immer an die kleinste Details!</p>
+								<!--<a href="#" class="text-uppercase">Learn Details</a>-->
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="single-feature text-center">
-								<span class="lnr lnr-code"></span>
-								<h3>Clean Code</h3>
-								<p>Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p>
-								<a href="#" class="text-uppercase">Learn Details</a>
+								<span class="lnr lnr-smile"></span>
+								<h3>Zufriedenheit</h3>
+								<p>Unser großter Wunsch: Ihre Zufriedenheit! Wir arbeiten dafür, dass unsere Produkte
+									für Sie eine Freude sind!
+									<br>Daher lieben wir Ihren Feedback!</p>
+								<!--<a href="#" class="text-uppercase">Learn Details</a>-->
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="single-feature text-center">
 								<span class="lnr lnr-clock"></span>
-								<h3>Punctuality</h3>
-								<p>Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p>
-								<a href="#" class="text-uppercase">Learn Details</a>
+								<h3>Verbesserung</h3>
+								<p>Aus Ihrem Feedback lernen wir viel und versuchen jede Verbesserung in unsere Produkte
+									einzubauen
+									um diese immer besser machen zu können.</p>
+								<!--<a href="#" class="text-uppercase">Learn Details</a>-->
 							</div>
 						</div>
 					</div>
@@ -106,20 +155,36 @@
 			<!-- End Feature Area -->
 			<!-- Start Testimonial Area -->
 			<section class="section-gap testimonial-area relative">
-				<div class="overlay overlay-bg"></div>
+				<div class="overlay overlay-bg">
+					<div align="center" style="padding-top: 25px;"><h1 style="color: white;">Unsere Produkte</h1></div>
+				</div>
 				<div class="container relative">
 					<div class="row justify-content-center">
 						<div class="col-lg-10">
 							<div class="active-testimonial-carousel">
 								<div class="item">
-									<h3>From the part of beginning</h3>
-									<p>Usage of the Internet is becoming more common due to rapid advancement of technology and the power of globalization. Societies are becoming more inter-connected. Thoughts from different</p>
-									<a href="#">See Case Study</a>
+									<h3>USB C Adapter</h3>
+									<img src="">
+									<p> Mit dem USB Typ C Adapter auf 3,5 mm Klinke und Ladeanschlüsse können Sie
+										während des Ladevorgangs Musik hören, Videos ansehen, Spiele spielen oder
+										telefonieren.
+										Eine praktische und günstige Lösung für Kopfhörer mit Aux-Anschluss.</p>
+									<a href="products/adapter/">Mehr über Artikel erfahren</a>
+								</div>
+								<div class="item" style="visibility: hidden;">
+									<h3>Faltbare Strohhalme</h3>
+									<p> Wiederverwendbare Faltbare Strohhalme in einem magnetischen Koffer mit
+										Reinigungsbürste
+										und tragbarer Halterung für Party/Outdoor/Reisen für Erwachsene und Kinder.</p>
+									<a href="products/adapter/">Mehr über Artikel erfahren</a>
 								</div>
 								<div class="item">
-									<h3>From the part of beginning</h3>
-									<p>Usage of the Internet is becoming more common due to rapid advancement of technology and the power of globalization. Societies are becoming more inter-connected. Thoughts from different</p>
-									<a href="#">See Case Study</a>
+									<h3>Faltbarer Reisebecher</h3>
+									<p>3 in 1 Faltbarer Multifunktionaler BPA-freier Wiederverwendbarerer
+										Silikonbecher/Pocket
+										Cup To Go mit Schraubverschluss und Karabiner bis zu 550ml für Reisen, Outdoor,
+										Büro.</p>
+									<a href="products/cup/">Mehr über Artikel erfahren</a>
 								</div>
 							</div>
 						</div>
@@ -130,14 +195,15 @@
 			</section>
 			<!-- End Testimonial Area -->
 			<!-- Start Project Area -->
-			<section class="project-area">
+			<section class="project-area" style="visibility: hidden;">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4">
 							<div class="single-project" style="background: url(img/p1.jpg);">
 								<div class="overlay overlay-content">
 									<h4>Vector Illustration</h4>
-									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology than</p>
+									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them
+										work have allowed humanity to create slimmer, more portable technology than</p>
 								</div>
 							</div>
 						</div>
@@ -153,7 +219,8 @@
 							<div class="single-project" style="background: url(img/p3.jpg);">
 								<div class="overlay overlay-content">
 									<h4>Vector Illustration</h4>
-									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology than</p>
+									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them
+										work have allowed humanity to create slimmer, more portable technology than</p>
 								</div>
 							</div>
 						</div>
@@ -162,13 +229,14 @@
 			</section>
 			<!-- End Project Area -->
 			<!-- Start Begining Area -->
-			<section class="section-gap beginning-area">
+			<section class="section-gap beginning-area" style="visibility: hidden;">
 				<div class="container">
 					<div class="row justify-content-end">
 						<div class="col-lg-5">
 							<div class="begining-content">
 								<h2>From the part of beginning</h2>
-								<p>Usage of the Internet is becoming more common due to rapid advancement of technology and the power of globalization. Societies.</p>
+								<p>Usage of the Internet is becoming more common due to rapid advancement of technology
+									and the power of globalization. Societies.</p>
 								<a href="#">Get Started</a>
 							</div>
 						</div>
