@@ -1,41 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:ror="http://rorweb.com/0.1/" version="2.0">
-    <channel>
-        <title>ROR Sitemap for http://reise-eines-hosts.de/</title>
-        <link>http://reise-eines-hosts.de/</link>
+     <channel>
+          <title>ROR Sitemap for http://reise-eines-hosts.de/</title>
+          <link>http://reise-eines-hosts.de/</link>
 
-        <item>
-            <link>http://reise-eines-hosts.de/</link>
-            <title>Reise eines AirBnB Hostes :: Blog über Gäste hosten &amp; finanzielle Freiheit</title>
-            <description>Reise eines AirBnB Hostes :: Blog über Gäste hosten &amp; finanzielle Freiheit</description>
-            <ror:updatePeriod></ror:updatePeriod>
-            <ror:sortOrder>0</ror:sortOrder>
-            <ror:resourceOf>sitemap</ror:resourceOf>
-        </item>
-        <item>
-            <link>http://reise-eines-hosts.de/impressum.html</link>
-            <title>Reise eines Hosts :: Impressum</title>
-            <description>Reise eines Hosts :: Impressum</description>
-            <ror:updatePeriod></ror:updatePeriod>
-            <ror:sortOrder>1</ror:sortOrder>
-            <ror:resourceOf>sitemap</ror:resourceOf>
-        </item>
-        <item>
-            <link>http://reise-eines-hosts.de/datenschutz.html</link>
-            <title>Reise eines Hosts :: Datenschutz</title>
-            <description>Reise eines Hosts :: Datenschutz</description>
-            <ror:updatePeriod></ror:updatePeriod>
-            <ror:sortOrder>1</ror:sortOrder>
-            <ror:resourceOf>sitemap</ror:resourceOf>
-        </item>
-        <item>
-            <link>http://reise-eines-hosts.de/index.html</link>
-            <title>Reise eines AirBnB Hostes :: Blog über Gäste hosten &amp; finanzielle Freiheit</title>
-            <description>Reise eines AirBnB Hostes :: Blog über Gäste hosten &amp; finanzielle Freiheit</description>
-            <ror:updatePeriod></ror:updatePeriod>
-            <ror:sortOrder>2</ror:sortOrder>
-            <ror:resourceOf>sitemap</ror:resourceOf>
-        </item>
-    </channel>
+          <item>
+               <link>http://reise-eines-hosts.de/</link>
+               <title>Reise eines AirBnB Hostes :: Blog über Gäste hosten &amp; finanzielle Freiheit</title>
+               <description>Reise eines AirBnB Hostes :: Blog über Gäste hosten &amp; finanzielle Freiheit</description>
+               <ror:updatePeriod></ror:updatePeriod>
+               <ror:sortOrder>0</ror:sortOrder>
+               <ror:resourceOf>sitemap</ror:resourceOf>
+          </item>
+          <item>
+               <link>http://reise-eines-hosts.de/1.html</link>
+               <title>Reise eines AirBnB Hostes :: Wie ich zum Gastgeben kam...</title>
+               <description>Reise eines AirBnB Hostes :: Wie ich zum Gastgeben kam...</description>
+               <ror:updatePeriod></ror:updatePeriod>
+               <ror:sortOrder>1</ror:sortOrder>
+               <ror:resourceOf>sitemap</ror:resourceOf>
+          </item>
+          <item>
+               <link>http://reise-eines-hosts.de/2.html</link>
+               <title>Reise eines AirBnB Hostes :: Mehrere Properties aufbauen</title>
+               <description>Reise eines AirBnB Hostes :: Mehrere Properties aufbauen</description>
+               <ror:updatePeriod></ror:updatePeriod>
+               <ror:sortOrder>1</ror:sortOrder>
+               <ror:resourceOf>sitemap</ror:resourceOf>
+          </item>
+          <item>
+               <link>http://reise-eines-hosts.de/3.html</link>
+               <title>Reise eines AirBnB Hostes :: Lüge über Rente oder mach nicht mit beim Pyramidenbau!</title>
+               <description>Reise eines AirBnB Hostes :: Lüge über Rente oder mach nicht mit beim Pyramidenbau!
+               </description>
+               <ror:updatePeriod></ror:updatePeriod>
+               <ror:sortOrder>1</ror:sortOrder>
+               <ror:resourceOf>sitemap</ror:resourceOf>
+          </item>
+          <item>
+               <link>http://reise-eines-hosts.de/impressum.html</link>
+               <title>Reise eines Hosts :: Impressum</title>
+               <description>Reise eines Hosts :: Impressum</description>
+               <ror:updatePeriod></ror:updatePeriod>
+               <ror:sortOrder>1</ror:sortOrder>
+               <ror:resourceOf>sitemap</ror:resourceOf>
+          </item>
+          <item>
+               <link>http://reise-eines-hosts.de/datenschutz.html</link>
+               <title>Reise eines Hosts :: Datenschutz</title>
+               <description>Reise eines Hosts :: Datenschutz</description>
+               <ror:updatePeriod></ror:updatePeriod>
+               <ror:sortOrder>1</ror:sortOrder>
+               <ror:resourceOf>sitemap</ror:resourceOf>
+          </item>
+          <item>
+               <link>http://reise-eines-hosts.de/index.html</link>
+               <title>Reise eines AirBnB Hostes :: Blog über Gäste hosten &amp; finanzielle Freiheit</title>
+               <description>Reise eines AirBnB Hostes :: Blog über Gäste hosten &amp; finanzielle Freiheit</description>
+               <ror:updatePeriod></ror:updatePeriod>
+               <ror:sortOrder>2</ror:sortOrder>
+               <ror:resourceOf>sitemap</ror:resourceOf>
+          </item>
+     </channel>
 </rss>
   

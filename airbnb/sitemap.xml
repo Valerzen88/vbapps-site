@@ -9,8 +9,23 @@
 
     <url>
         <loc>http://reise-eines-hosts.de/</loc>
-        <lastmod>2020-01-04T16:48:47+00:00</lastmod>
+        <lastmod>2020-01-18T18:13:12+00:00</lastmod>
         <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>http://reise-eines-hosts.de/1.html</loc>
+        <lastmod>2020-01-18T17:49:23+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://reise-eines-hosts.de/2.html</loc>
+        <lastmod>2020-01-18T17:49:23+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://reise-eines-hosts.de/3.html</loc>
+        <lastmod>2020-01-18T17:49:23+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
         <loc>http://reise-eines-hosts.de/impressum.html</loc>
@@ -24,7 +39,7 @@
     </url>
     <url>
         <loc>http://reise-eines-hosts.de/index.html</loc>
-        <lastmod>2020-01-04T16:48:47+00:00</lastmod>
+        <lastmod>2020-01-18T18:13:12+00:00</lastmod>
         <priority>0.64</priority>
     </url>
 
