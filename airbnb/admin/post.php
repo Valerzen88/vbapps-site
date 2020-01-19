@@ -16,10 +16,11 @@
 <body>
 <div id="editor">
     <form action="post.php">
-        <label for="blogpostarea">Trage deinen Blogtext ein</label><textarea cols="200" rows="45" id="blogpostarea">
-Some Initial Content was in this textarea
-</textarea>
-        //TODO: specify other fields
+        <label for="title">Überschrift des Eintrags: </label><input id="title" type="text" name="title"><br>
+        <label for="blogpostarea">Trage deinen Blogtext ein:</label>
+        <textarea cols="200" rows="45" id="blogpostarea" name="body"></textarea>
+        <input type="text" name="username" t>
+        <input type="button" name="postToBlog">
     </form>
 </div>
 <?php
