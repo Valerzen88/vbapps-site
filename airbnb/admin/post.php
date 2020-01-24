@@ -15,15 +15,18 @@
 </head>
 <body>
 <div id="editor">
-    <form action="post.php">
-        <label for="title">Überschrift des Eintrags: </label><input id="title" type="text" name="title"><br>
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+        <label for="title">Überschrift des Eintrags: </label><input id="title" type="text" size="150" name="title"><br>
         <label for="blogpostarea">Trage deinen Blogtext ein:</label>
         <textarea cols="200" rows="45" id="blogpostarea" name="body"></textarea>
-        <input type="text" name="username" t>
-        <input type="button" name="postToBlog">
+        <input type="text" name="username" value="Valerian">
+        <input type="button" name="postToBlog" value="Post it to Blog!">
     </form>
 </div>
 <?php
+if (!empty($_POST)) {
+
+}
 //post to self and save to db
 ?>
 </body>
