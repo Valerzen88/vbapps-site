@@ -11,5 +11,5 @@ if (isset($_POST["email_address"])) {
 	}
 	file_put_contents("submits.ini",$text);
 }
-header("Location: /index.html");
+header("Location: /index.php");
 ?>
