@@ -5,38 +5,38 @@
           <link>http://reise-eines-hosts.de/</link>
 
           <item>
-               <link>http://reise-eines-hosts.de/</link>
-               <title>Reise eines AirBnB Hosts :: Blog über Gäste hosten &amp; finanzielle Freiheit</title>
-               <description>Reise eines AirBnB Hosts :: Blog über Gäste hosten &amp; finanzielle Freiheit</description>
-               <ror:updatePeriod></ror:updatePeriod>
-               <ror:sortOrder>0</ror:sortOrder>
-               <ror:resourceOf>sitemap</ror:resourceOf>
+              <link>http://reise-eines-hosts.de/</link>
+              <title>Reise eines Hosts :: Blog über Gäste hosten &amp; finanzielle Freiheit</title>
+              <description>Reise eines Hosts :: Blog über Gäste hosten &amp; finanzielle Freiheit</description>
+              <ror:updatePeriod></ror:updatePeriod>
+              <ror:sortOrder>0</ror:sortOrder>
+              <ror:resourceOf>sitemap</ror:resourceOf>
           </item>
-          <item>
-               <link>http://reise-eines-hosts.de/1.html</link>
-               <title>Reise eines AirBnB Hosts :: Wie ich zum Gastgeben kam...</title>
-               <description>Reise eines AirBnB Hosts :: Wie ich zum Gastgeben kam...</description>
-               <ror:updatePeriod></ror:updatePeriod>
-               <ror:sortOrder>1</ror:sortOrder>
-               <ror:resourceOf>sitemap</ror:resourceOf>
-          </item>
-          <item>
-               <link>http://reise-eines-hosts.de/2.html</link>
-               <title>Reise eines AirBnB Hosts :: Mehrere Properties aufbauen</title>
-               <description>Reise eines AirBnB Hosts :: Mehrere Properties aufbauen</description>
-               <ror:updatePeriod></ror:updatePeriod>
-               <ror:sortOrder>1</ror:sortOrder>
-               <ror:resourceOf>sitemap</ror:resourceOf>
-          </item>
-          <item>
-               <link>http://reise-eines-hosts.de/3.html</link>
-               <title>Reise eines AirBnB Hosts :: Lüge über Rente oder mach nicht mit beim Pyramidenbau!</title>
-               <description>Reise eines AirBnB Hosts :: Lüge über Rente oder mach nicht mit beim Pyramidenbau!
-               </description>
-               <ror:updatePeriod></ror:updatePeriod>
-               <ror:sortOrder>1</ror:sortOrder>
-               <ror:resourceOf>sitemap</ror:resourceOf>
-          </item>
+         <item>
+             <link>http://reise-eines-hosts.de/1.html</link>
+             <title>Reise eines Hosts :: Wie ich zum Gastgeben kam...</title>
+             <description>Reise eines Hosts :: Wie ich zum Gastgeben kam...</description>
+             <ror:updatePeriod></ror:updatePeriod>
+             <ror:sortOrder>1</ror:sortOrder>
+             <ror:resourceOf>sitemap</ror:resourceOf>
+         </item>
+         <item>
+             <link>http://reise-eines-hosts.de/2.html</link>
+             <title>Reise eines Hosts :: Mehrere Properties aufbauen</title>
+             <description>Reise eines Hosts :: Mehrere Properties aufbauen</description>
+             <ror:updatePeriod></ror:updatePeriod>
+             <ror:sortOrder>1</ror:sortOrder>
+             <ror:resourceOf>sitemap</ror:resourceOf>
+         </item>
+         <item>
+             <link>http://reise-eines-hosts.de/3.html</link>
+             <title>Reise eines Hosts :: Lüge über Rente oder mach nicht mit beim Pyramidenbau!</title>
+             <description>Reise eines Hosts :: Lüge über Rente oder mach nicht mit beim Pyramidenbau!
+             </description>
+             <ror:updatePeriod></ror:updatePeriod>
+             <ror:sortOrder>1</ror:sortOrder>
+             <ror:resourceOf>sitemap</ror:resourceOf>
+         </item>
           <item>
                <link>http://reise-eines-hosts.de/impressum.html</link>
                <title>Reise eines Hosts :: Impressum</title>
@@ -53,14 +53,14 @@
                <ror:sortOrder>1</ror:sortOrder>
                <ror:resourceOf>sitemap</ror:resourceOf>
           </item>
-          <item>
-               <link>http://reise-eines-hosts.de/index.html</link>
-               <title>Reise eines AirBnB Hosts :: Blog über Gäste hosten &amp; finanzielle Freiheit</title>
-               <description>Reise eines AirBnB Hosts :: Blog über Gäste hosten &amp; finanzielle Freiheit</description>
-               <ror:updatePeriod></ror:updatePeriod>
-               <ror:sortOrder>2</ror:sortOrder>
-               <ror:resourceOf>sitemap</ror:resourceOf>
-          </item>
+         <item>
+             <link>http://reise-eines-hosts.de/index.html</link>
+             <title>Reise eines Hosts :: Blog über Gäste hosten &amp; finanzielle Freiheit</title>
+             <description>Reise eines Hosts :: Blog über Gäste hosten &amp; finanzielle Freiheit</description>
+             <ror:updatePeriod></ror:updatePeriod>
+             <ror:sortOrder>2</ror:sortOrder>
+             <ror:resourceOf>sitemap</ror:resourceOf>
+         </item>
      </channel>
 </rss>
   
