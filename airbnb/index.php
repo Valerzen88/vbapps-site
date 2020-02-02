@@ -31,7 +31,7 @@
                         <div class="w3-col m8 s12">
                             <p>
                                 <button class="w3-button w3-padding-large w3-white w3-border">
-                                    <b><a href="4.html"> WEITERLESEN »</a></b>
+                                    <b><a href="4.php"> WEITERLESEN »</a></b>
                                 </button>
                             </p>
                         </div>
@@ -60,7 +60,7 @@
                         <div class="w3-col m8 s12">
                             <p>
                                 <button class="w3-button w3-padding-large w3-white w3-border">
-                                    <b><a href="3.html"> WEITERLESEN »</a></b>
+                                    <b><a href="3.php"> WEITERLESEN »</a></b>
                                 </button>
                             </p>
                         </div>
@@ -89,7 +89,7 @@
                         <div class="w3-col m8 s12">
                             <p>
                                 <button class="w3-button w3-padding-large w3-white w3-border">
-                                    <b><a href="2.html"> WEITERLESEN »</a></b>
+                                    <b><a href="2.php"> WEITERLESEN »</a></b>
                                 </button>
                             </p>
                         </div>
@@ -119,7 +119,7 @@
                         <div class="w3-col m8 s12">
                             <p>
                                 <button class="w3-button w3-padding-large w3-white w3-border">
-                                    <b><a href="1.html"> WEITERLESEN »</a></b>
+                                    <b><a href="1.php"> WEITERLESEN »</a></b>
                                 </button>
                             </p>
                         </div>
@@ -145,7 +145,6 @@
                 </div>
             </div>
         </div>
-
 
         <?php include('right_side.html'); ?>
         <!-- Posts -->
