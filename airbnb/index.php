@@ -185,7 +185,36 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <div class="w3-col m4 w3-hide-small">
                             <p><span class="w3-padding-large w3-right"
                                      style="visibility: hidden;"><b>Comments  </b> <span
-                                    class="w3-badge">2</span></span>
+                                            class="w3-badge">2</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <center><img src="images/schranken_im_kopf.jpg" style="width:55%;height:55%;"></center>
+                <div class="w3-container">
+                    <h3><b>Angst ist ein schlechter Berater!</b></h3>
+                    <h5>von Valerian, <span class="w3-opacity">25. Januar 2020</span></h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Angst ist ein schlechter Berater. Diesen Satz haben wir alle oft gehört, doch, was
+                        steckt hinter
+                        diesem Satz und was hat es mit der finanziellen Freiheit zu tun? Die Antwort ist: Alles!</p>
+                    <div class="w3-row">
+                        <div class="w3-col m8 s12">
+                            <p>
+                                <button class="w3-button w3-padding-large w3-white w3-border">
+                                    <b><a href="4.html"> WEITERLESEN »</a></b>
+                                </button>
+                            </p>
+                        </div>
+                        <div class="w3-col m4 w3-hide-small">
+                            <p><span class="w3-padding-large w3-right"
+                                     style="visibility: hidden;"><b>Comments  </b> <span
+                                            class="w3-badge">2</span></span>
                             </p>
                         </div>
                     </div>
