@@ -295,7 +295,10 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </ul>
             </div>-->
             <hr>
-
+            <a href="https://twitter.com/HostsReise?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
+               data-show-screen-name="false" data-lang="de" data-dnt="true" data-show-count="false">Follow
+                @HostsReise</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             <!-- Labels / tags -->
             <div class="w3-card w3-margin" style="visibility:hidden;">
                 <div class="w3-container w3-padding">
@@ -303,8 +306,8 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
                 <div class="w3-container w3-white">
                     <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span
-                            class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span
-                            class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span
+                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
                         <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span
                                 class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span
                                 class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
