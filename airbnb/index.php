@@ -5,7 +5,7 @@
 
     <!-- Header -->
     <header class="w3-container w3-center w3-padding-32">
-        <h1><b>Reise eines Hosts</b></h1>
+        <h1><a href="/" style="text-decoration: none;"><b>Reise eines Hosts</b></a></h1>
         <p>Geh mit mir auf die Reise <span class="w3-tag">eines Hosts zur finanziellen Freiheit.</span></p>
     </header>
 
