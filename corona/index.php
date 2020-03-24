@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+//error_reporting(0);
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -82,120 +82,106 @@ if ($xml === false) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
-    <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/css/flag-icon.min.css"
-          integrity="sha256-YjcCvXkdRVOucibC9I4mBS41lXPrWfqY2BnpskhZPnw=" crossorigin="anonymous"/>
     <style>
-        * {
-            box-sizing: border-box
-        }
+* {box-sizing:border-box}
 
-        /* Slideshow container */
-        .slideshow-container {
-            max-width: 100%;
-            position: relative;
-            margin: auto;
-        }
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
 
-        /* Hide the images by default */
-        .mySlides {
-            display: none;
-        }
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
-        /* Next & previous buttons */
-        .prev, .next {
-            cursor: pointer;
-            position: absolute;
-            top: 50%;
-            width: auto;
-            margin-top: -22px;
-            padding: 16px;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-            user-select: none;
-        }
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
 
-        /* Position the "next button" to the right */
-        .next {
-            right: 0;
-            border-radius: 3px 0 0 3px;
-        }
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
-        /* On hover, add a black background color with a little bit see-through */
-        .prev:hover, .next:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 
-        /* Caption text */
-        .text {
-            color: #f2f2f2;
-            font-size: 15px;
-            padding: 8px 12px;
-            position: absolute;
-            bottom: 8px;
-            width: 100%;
-            text-align: center;
-        }
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
 
-        /* Number text (1/3 etc) */
-        .numbertext {
-            color: #f2f2f2;
-            font-size: 12px;
-            padding: 8px 12px;
-            position: absolute;
-            top: 0;
-        }
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
 
-        /* The dots/bullets/indicators */
-        .dot {
-            cursor: pointer;
-            height: 15px;
-            width: 15px;
-            margin: 0 2px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
-        }
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
-        .active, .dot:hover {
-            background-color: #717171;
-        }
+.active, .dot:hover {
+  background-color: #717171;
+}
 
-        /* Fading animation */
-        .fade {
-            -webkit-animation-name: fade;
-            -webkit-animation-duration: 1.5s;
-            animation-name: fade;
-            animation-duration: 1.5s;
-        }
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
 
-        @-webkit-keyframes fade {
-            from {
-                opacity: .4
-            }
-            to {
-                opacity: 1
-            }
-        }
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
-        @keyframes fade {
-            from {
-                opacity: .4
-            }
-            to {
-                opacity: 1
-            }
-        }
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
     </style>
     <script type="text/javascript">
         // Load google charts
         google.charts.load('current', {
-            'packages': ['corechart', 'geochart', 'bar'],
+            'packages': ['corechart', 'bar', 'geochart'],
             'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
         });
         google.charts.setOnLoadCallback(drawChart);
@@ -219,7 +205,7 @@ if ($xml === false) {
                 width: 700,
                 height: 400,
                 colors: ['orange', 'green', 'black'],
-                legend: {position: 'bottom', textStyle: {color: 'white', fontName: 'Montserrat', fontSize: 12}},
+                legend: {position: 'right', textStyle: {color: 'white', fontName: 'Montserrat', fontSize: 16}},
                 pieSliceTextStyle: {
                     fontName: 'Montserrat', fontSize: 16
                 },
@@ -234,7 +220,6 @@ if ($xml === false) {
             data1.addColumn('string', 'Country');
             data1.addColumn('number', 'Active cases');
             data1.addRows([
-
                 <?php
                 for ($i = 0; $i < count($arr_all_active); $i++) {
                     if ($arr_all_active[$i]['country'] == 'USA') {
@@ -246,6 +231,9 @@ if ($xml === false) {
                     if ($arr_all_active[$i]['country'] == 'S. Korea') {
                         $arr_all_active[$i]['country'] = 'KR';
                     }
+					if ($arr_all_active[$i]['country'] == 'Czechia') {
+                        $arr_all_active[$i]['country'] = 'CZ';
+                    }
                     if ($i != count($arr_all_active) - 1) {
                         echo "['" . $arr_all_active[$i]['country'] . "'," . $arr_all_active[$i]['active_cases'] . "],";
                     } else {
@@ -256,8 +244,8 @@ if ($xml === false) {
             ]);
 
             var options1 = {
-                width: 1300,
-                height: 430,
+                width: 1450,
+                height: 450,
                 displayMode: 'auto',
                 colorAxis: {colors: ['yellow', 'red']},
                 legend: 'none',
@@ -266,8 +254,53 @@ if ($xml === false) {
 
             var chart1 = new google.visualization.GeoChart(document.getElementById('chart_div'));
             chart1.draw(data1, options1);
+			
+			var data3 = new google.visualization.DataTable();
+            data3.addColumn('string', 'Country');
+            data3.addColumn('number', 'Active');
+            data3.addColumn('number', 'Recovered');
+            data3.addColumn('number', 'Death');
+            data3.addRows([
+                <?php
+                for ($i = 0; $i < count($arr_values_countries); $i++) {
+                    if ($i != count($arr_values_countries) - 1) {
+                        $active = $arr_values_countries[$i]['total_cases'] - $arr_values_countries[$i]['total_recovered'] - $arr_values_countries[$i]['total_deaths'];
+                        echo "['" . $arr_values_countries[$i]['country'] . "'," . $active . "," . $arr_values_countries[$i]['total_recovered'] . "," . $arr_values_countries[$i]['total_deaths'] . "],";
+                    } else {
+                        echo "['" . $arr_values_countries[$i]['country'] . "'," . $active . "," . $arr_values_countries[$i]['total_recovered'] . "," . $arr_values_countries[$i]['total_deaths'] . "]";
+                    }
+                }
+                ?>
+            ]);
 
-            var data2 = google.visualization.arrayToDataTable([
+            var options3 = {
+                backgroundColor: '#283142',
+				width: '90%',
+                height: '90%',
+				bars: 'vertical',
+                vAxis:
+                    {
+                        textStyle: {
+                            color: 'white',
+                            fontName: 'Montserrat', fontSize: 18
+                        }
+                    },
+                hAxis:
+                    {
+                        textStyle: {
+                            color: 'white',
+                            fontName: 'Montserrat', fontSize: 14
+                        }
+                    },
+                legend: {position: 'bottom', textStyle: {color: 'white', fontName: 'Montserrat', fontSize: 18}},
+                colors: ['orange', 'green', 'black']
+            };
+
+            var chart3 = new google.charts.Bar(document.getElementById('columnchart_material'));
+	
+            chart3.draw(data3, google.charts.Bar.convertOptions(options3));
+
+            /*var data2 = google.visualization.arrayToDataTable([
                 ['Europe', 'Asia', 'North. America', 'South America', 'Australia',
                     'Africa', {role: 'annotation'}],
                 ['World', 28, 19, 29, 30, 12, '']
@@ -295,54 +328,10 @@ if ($xml === false) {
                         }
                     }
             };
-            //var chart2 = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
-            //chart2.draw(data2, options2);
+            var chart2 = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+            chart2.draw(data2, options2);*/
 
-            var data3 = new google.visualization.DataTable();
-            data3.addColumn('string', 'Country');
-            data3.addColumn('number', 'Active');
-            data3.addColumn('number', 'Recovered');
-            data3.addColumn('number', 'Death');
-            data3.addRows([
-
-                <?php
-                for ($i = 0; $i < count($arr_values_countries); $i++) {
-                    if ($i != count($arr_values_countries) - 1) {
-                        $active = $arr_values_countries[$i]['total_cases'] - $arr_values_countries[$i]['total_recovered'] - $arr_values_countries[$i]['total_deaths'];
-                        echo "['" . $arr_values_countries[$i]['country'] . "'," . $active . "," . $arr_values_countries[$i]['total_recovered'] . "," . $arr_values_countries[$i]['total_deaths'] . "],";
-                    } else {
-                        echo "['" . $arr_values_countries[$i]['country'] . "'," . $active . "," . $arr_values_countries[$i]['total_recovered'] . "," . $arr_values_countries[$i]['total_deaths'] . "]";
-                    }
-                }
-                ?>
-            ]);
-
-            var options3 = {
-                backgroundColor: '#283142',
-                vAxis:
-                    {
-                        textStyle: {
-                            color: 'white',
-                            fontName: 'Montserrat', fontSize: 16
-                        }
-                    },
-                hAxis:
-                    {
-                        textStyle: {
-                            color: 'white',
-                            fontName: 'Montserrat', fontSize: 13
-                        }
-                    },
-                legend: {position: 'bottom', textStyle: {color: 'white', fontName: 'Montserrat', fontSize: 16}},
-                colors: ['orange', 'green', 'black'],
-                chart: {
-                    backgroundColor: '#283142'
-                }
-            };
-
-            var chart3 = new google.charts.Bar(document.getElementById('columnchart_material'));
-
-            chart3.draw(data3, google.charts.Bar.convertOptions(options3));
+            
         }
     </script>
 
@@ -352,13 +341,17 @@ if ($xml === false) {
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
-    <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
-        <h1 align="center">Coronavirus Cases Update</h1>
+        <h1 style="text-align:center">Top 15 countries</h1>
+        <div id="columnchart_material" style="width: 90%; height: 720px;margin:auto;position: relative;"></div>
+    </div>
+	
+    <div class="mySlides fade">
+        <h1 align="center">Coronavirus Cases Infos</h1>
         <table style="margin-left:auto; margin-right:auto;">
             <tr>
                 <td colspan="2">
-                    <div id="chart_div" style="width: 1200px; height: 450px;"></div>
+                    <div id="chart_div" style="width: 1600px; height: 450px;"></div>
                 </td>
                 <td>
 
@@ -368,8 +361,7 @@ if ($xml === false) {
                 <td align="center" style="padding-left:75px;">
                     <table width="80%>
                      <tr>
-                    <td align=" center
-                    ">
+                    <td align="center">
                     <h1 style="font-width:bold;font-size:35pxc;color:orange;">Cases<br><font
                                 style="font-width:bold;font-size:35px;"><?php echo $arr_values["total_cases"]; ?></font>
                     </h1>
@@ -394,15 +386,12 @@ if ($xml === false) {
         </table>
     </div>
 
-    <div class="mySlides fade">
-        <h1 style="text-align:center">Top 15 countries</h1>
-        <div id="columnchart_material" style="width: 90%; height: 750px;padding-left:150px;padding-top:50px;"></div>
-    </div>
+    
 
     <div class="mySlides fade">
         <h1 style="text-align:center" ;>Top World News</h1>
         <?php
-        echo "<div style='margin:auto;position: relative;text-align:center;'>";
+        echo "<div style='text-align:center;'>";
         foreach ($xml_arr['channel']['item'] as $item) {
             echo '<h3>+++  ', $item->title, "  +++</h3>";
             //echo '<h5>', strip_tags($item -> description), "</h5>";
@@ -412,36 +401,27 @@ if ($xml === false) {
     </div>
 
     <div class="mySlides fade">
-        <img src="corona_digest.png" style="width:90%;height:75%;margin:auto;position: relative;">
+        <img src="corona_digest.png" style="width:90%;height:90%;display: block;margin-left: auto;margin-right: auto;margin-top: auto;">
     </div>
 
 </div>
-<br>
-
-</div>
+<br><br><br>
 
 <script>
-    var slideIndex = 0;
-    showSlides();
+var slideIndex = 0;
+showSlides();
 
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-            slideIndex = 1
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 5000); // Change image every 2 seconds
-    }
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
 
 </script>
 
